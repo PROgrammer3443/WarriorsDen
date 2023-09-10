@@ -1,0 +1,35 @@
+<head>
+    <title>Warriors' Den</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div style="position: relative; display: inline-block;">
+        <div style="position: absolute;
+                    display: flex;
+                    width: 100%;
+                    align-items: center;
+                    padding: 20px;">
+            <!-- Player 1 health -->
+            <div style="position: relative; height: 40px; width: 100%; display: flex; justify-content: flex-end; border-top: 10px solid white; border-bottom: 10px solid white; border-left: 10px solid white;">
+                <div style="background-color: rgba(235, 60, 40); height: 20px; width: 100%;"></div>
+                <div id="playerHealth" style="position: absolute; background: #00AF6A; top: 0; right: 0; bottom: 0; width: 100%;"></div>
+            </div>
+            <!-- Timer -->
+            <div id="timer" style="background-color: black; width: 100px; height: 100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 30px; font-family: 'Trebuchet MS', sans-serif; color: white; border-radius: 35px; border: 10px solid white;">60</div>
+            <!-- Player 2 health -->
+            <div style="position: relative; height: 40px; width: 100%; border-top: 10px solid white; border-bottom: 10px solid white; border-right: 10px solid white;">
+                <div style="background-color: rgba(235, 60, 40); height: 20px; width: 100%;"></div>
+                <div id="enemyHealth" style="position: absolute; background: #00AF6A; top: 0; left: 0; right: 0; bottom: 0;"></div>
+            </div>
+        </div>
+        <div id="End" style="font-size: 30px; position: absolute; color: white; display: none; justify-content: center; align-items: center; top: 0; left: 0; right: 0; bottom: 0; font-family: 'Trebuchet MS', sans-serif;"><strong>Tie</strong></div>
+        <canvas></canvas>
+    </div>
+    <script src="Js/Classes.js"></script>
+    <script src="Js/Utils.js"></script>
+    <script src="Main.js"></script>
+</body>
