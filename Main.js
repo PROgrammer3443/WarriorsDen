@@ -13,7 +13,7 @@ const background = new Sprite({
         x: 0,
         y: 0
     }, 
-    imageSrc: './Image/Background.png'
+    imageSrc: 'Background.png'
 })
 
 // Make a shop animation
@@ -23,7 +23,7 @@ const shop = new Sprite({
         x: 630,
         y: 128
     }, 
-    imageSrc: './Image/shop_anim.png',
+    imageSrc: 'shop_anim.png',
     scale: 2.75,
     FramesMax: 6
 })
@@ -38,7 +38,7 @@ const player = new Fighter({
         x: 0,
         y: 0
     },
-    imageSrc: './Image/Martial Hero/Sprites/Idle.png',
+    imageSrc: '.Idle.png',
     FramesMax: 8,
     scale: 2.5,
     offset : {
@@ -47,31 +47,31 @@ const player = new Fighter({
     },
     sprites: {
         idle: {
-            imageSrc: './Image/Martial Hero/Sprites/Idle.png',
+            imageSrc: 'Idle.png',
             FramesMax: 8
         },
         run: {
-            imageSrc: './Image/Martial Hero/Sprites/Run.png',
+            imageSrc: 'Run.png',
             FramesMax: 8
         },
         jump: {
-            imageSrc: './Image/Martial Hero/Sprites/Jump.png',
+            imageSrc: 'Jump.png',
             FramesMax: 2
         },
         fall: {
-            imageSrc: './Image/Martial Hero/Sprites/Fall.png',
+            imageSrc: 'Fall.png',
             FramesMax: 2
         },
         attack1: {
-            imageSrc: './Image/Martial Hero/Sprites/Attack1.png',
+            imageSrc: 'Attack1.png',
             FramesMax: 6
         },
         takeHit: {
-            imageSrc: './Image/Martial Hero/Sprites/Take Hit - white silhouette.png',
+            imageSrc: 'Take Hit - white silhouette.png',
             FramesMax: 4
         },
         death: {
-            imageSrc: './Image/Martial Hero/Sprites/Death.png',
+            imageSrc: 'Death.png',
             FramesMax: 6
         }
     },
@@ -95,7 +95,7 @@ const enemy = new Fighter({
         x: 0,
         y: 0
     },
-    imageSrc: './Image/Martial Hero 2/Sprites/Idle.png',
+    imageSrc: 'Idle.png',
     FramesMax: 4,
     scale: 2.5,
     offset : {
@@ -104,31 +104,31 @@ const enemy = new Fighter({
     },
     sprites: {
         idle: {
-            imageSrc: './Image/Martial Hero 2/Sprites/Idle.png',
+            imageSrc: 'Idle.png',
             FramesMax: 4
         },
         run: {
-            imageSrc: './Image/Martial Hero 2/Sprites/Run.png',
+            imageSrc: 'Run.png',
             FramesMax: 8
         },
         jump: {
-            imageSrc: './Image/Martial Hero 2/Sprites/Jump.png',
+            imageSrc: 'Jump.png',
             FramesMax: 2
         },
         fall: {
-            imageSrc: './Image/Martial Hero 2/Sprites/Fall.png',
+            imageSrc: 'Fall.png',
             FramesMax: 2
         },
         attack1: {
-            imageSrc: './Image/Martial Hero 2/Sprites/Attack1.png',
+            imageSrc: 'Attack1.png',
             FramesMax: 4
         },
         takeHit: {
-            imageSrc: './Image/Martial Hero 2/Sprites/Take hit.png',
+            imageSrc: 'Take hit.png',
             FramesMax: 3
         },
         death: {
-            imageSrc: './Image/Martial Hero 2/Sprites/Death.png',
+            imageSrc: 'Death.png',
             FramesMax: 7
         }
         
